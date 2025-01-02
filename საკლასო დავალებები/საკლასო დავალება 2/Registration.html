@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Regis-Style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <form action="post" class="contact-form">
+            <h2>Contact Us</h2>
+            <p id="full-name">Full Name 
+                <span style="color: #ff0000;">*</span>
+            </p>
+            <div class="first_row">               
+                <div class="first"> 
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="first-name" class="first_label">First</label>
+                </div>
+
+                <div class="last">
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label class="last_label" for="last-name">Last</label>  
+                </div>
+
+            </div>
+
+            <div class="second_row">
+
+                <label for="email" id="email-id">
+                    Email 
+                    <span style="color: #ff0000;">*</span>
+                </label>
+
+                <input type="email" name="email" id="email" required>
+
+            
+            </div>
+
+            <div class="third_row">
+
+                <label for="comment" id="comment-id">
+                    Leave us a few words
+                    <span style="color: #ff0000;">
+                        *
+                    </span>
+                </label>
+
+                <textarea name="comment" id="comment" required > </textarea>
+            </div>
+
+            <div class="submit_row">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

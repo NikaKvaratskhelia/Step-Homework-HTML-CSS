@@ -1,0 +1,19 @@
+p{
+    font-size: 10px;
+    font-weight: 300;
+    color:rgb(243, 243, 60);
+    background-color: black;
+    font-family: "Playwrite NL Guides", cursive;
+    text-align: center;
+    text-decoration: overline;
+}
+h1{
+    color: brown;
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+}
+
+img{
+    opacity: 0.7;
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    padding: 100px;
+}
+
+.main-div{
+    width: 100%;
+    margin: auto;
+    display: block;
+    max-width: fit-content;
+    border: 2px solid #818181;
+    padding: 20px;
+}
+
+.title{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.X{
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+}
+
+.description{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #818181;
+}
+
+.name-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.saxeli, .gvari, input[type="text"], input[type="password"]{
+    width: 100%;
+}
+
+.gvari input, .saxeli input, .saxeli{       
+    margin-right: 10px;
+}
+
+input, select{
+    padding: 10px;
+    border: 1px solid #818181;
+    background-color: #e0e0e097;
+    border-radius: 5px;
+}
+
+.password-row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+.age-name, .gender-name{
+    text-align: left;
+    color: #4b4444;
+
+}
+
+.age{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.age input{
+    margin-right: 10px;
+}
+
+.footerivit{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-row input{
+    width: 100%;
+    max-width: fit-content;
+    margin: auto;
+    display: block;
+    background-color: #005b05;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+.gender{
+    display: flex;
+    margin-top: 5px;
+} 
+
+.gender label{
+    padding: 10px;
+    border: 1px solid #818181;
+    background-color: #e0e0e097;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.gender>label>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gender .margined-lbl{
+    margin-right: 10px;
+}

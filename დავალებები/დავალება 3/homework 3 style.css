@@ -1,0 +1,149 @@
+/* marginს ვამატებ რომ ყველა გამოყოფილი იყოს ერთმანეთისგან */
+.divs{
+    margin-top: 30px;
+}
+
+
+/* task 1 */
+
+#parent{
+    width: 300px;
+    border: 10px solid greenyellow;
+}
+
+#child{
+    height: 200px;
+    border: 10px solid yellow;
+    margin: 30px;
+}
+
+/* task 2 */
+
+#parent2{
+    width: 300px;
+    border: 10px solid greenyellow; 
+    
+}
+
+#child2{
+    /* height: auto;
+    overflow: auto;
+    border: 10px solid yellow;
+    margin: 30px; */
+    height: 200px;
+    border: 10px solid yellow;
+    margin: 20px;
+}
+
+#grandchild{
+    /* box-sizing: border-box;
+    width: auto;
+    height: 220px;
+    border: red solid 10px;
+    margin: 30px; */
+    height: 140px;
+    border: 10px solid red;
+    margin: 20px;
+}
+
+/* task 3 */
+
+#parent3{
+    width: 300px;
+    border: 10px solid greenyellow;
+}
+
+#child3{
+    height: 200px;
+    border: 10px solid yellow;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+/* task 4 */
+
+#parent3{
+    width: 300px;
+    border: 10px solid greenyellow;
+}
+
+#child3{
+    height: 200px;
+    border: 10px solid yellow;
+    margin: 20px 50px;
+}
+
+/* task 5 */
+
+#parent5{
+    width: 300px;
+    border: 10px solid greenyellow;
+}
+
+#child5{
+    height: 200px;
+    border: 10px solid yellow;
+    margin: 20px 30px 40px 50px;
+}
+
+/* task 6 */
+
+#parent6{
+    width: 300px;
+    border: 10px solid greenyellow;
+}
+
+#child6{
+    height: 200px;
+    border: 10px solid yellow;
+    margin: 20px 50px;
+}
+
+/* task 7 */
+
+#parent7{
+    width: 300px;
+    border: 10px dashed greenyellow;
+}
+
+#child7{
+    height: 200px;
+    border: 10px solid yellow;
+    margin: 20px 30px 50px;
+}
+
+/* task 8 */
+
+#item7{
+    border: 2px blue solid;
+    width: 400px;
+    text-align: left;
+    padding: 15px;
+}
+
+/* task 9 */
+
+#item8{
+    border: 2px blue solid;
+    padding: 20px;
+}
+
+#item9{
+    border: 2px solid greenyellow;
+    padding: 40px;
+    margin: 30px 50px;
+}
+
+/* task 10 */
+
+#item10{
+    border: 2px blue solid;
+    padding: 20px 40px;
+}
+
+#item11{
+    border: 2px solid greenyellow;
+    padding: 10px 20px 30px;
+}

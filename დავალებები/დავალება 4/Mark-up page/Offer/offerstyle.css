@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    height: fit-content;
+}
+
+.header-div{
+    padding: 30px;
+    background-color: rgb(206, 199, 189);
+}
+
+.header-div nav{
+    margin-right: 250px;
+}
+
+header, .menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>li>a{
+    margin-left: 20px;
+    font-weight: bold;
+    color:black;
+    font-size: 20px
+}
+
+h1{
+    margin-left: 150px;
+    font-family: cursive;
+}
+
+footer{
+    background-color: #534f4f;
+    height: fit-content;
+    padding: 100px;
+}
+
+footer h2, footer p, a{
+    color: #ffffff;
+}
+
+footer>h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.contact-footer{
+    float: right;
+}
+
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.flexed li{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.flexed p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.follow-us{
+    margin: 50px;
+}
+
+.follow-text{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.tag-name{
+    font-size: 30px;
+    margin-top: 50px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tag-name a{
+    color:black ;
+}
+
+.follow-icons img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.follow-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.photo-foot{
+    width: 100%;
+    max-width: 100wh;
+}
+
+.offer-text{
+    text-align: center;
+    font-size: 80px;
+    margin: 70px 0px;
+}
+
+.painting-description{
+    margin:0px 100px;
+}
+
+
+
+
+.painting-card h3, .pic-title{
+    margin: 50px 100px;
+    font-size: 70px;
+}
+
+.painting-card{
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+    margin: 0px 100px;
+}
+
+.hr{
+    margin-top:50px;
+    margin-left: 100px;
+    width: 100%;
+}
+
+.price-button-painting, .price-button-murals{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.price-button-painting, .pic-butt-div{
+    margin: 30px 100px;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.price-button-murals{
+    margin: 30px 100px;
+    align-items: flex-end;
+}
+.painting-price p, .murals-price p, .pic-butt-div p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.painting-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100vw;
+    margin:150px 0px;
+}
+
+.first-row-img, .second-row-img{
+    width: 25%;
+    height: 25%;
+}
+
+.third-row-img{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    bottom:100px;
+}
+
+.fourth-row-img{
+    width: 15%;
+    height: 15%;
+}
+
+.murals-main{
+    background-color: rgb(214, 214, 208);
+    padding-bottom: 100px;
+}
+
+.margined{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.murals-text1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.murals-title{
+    margin-top: 50px;
+    font-size: 70px;
+    margin-left: 100px;
+}
+
+.murals-description{
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 18px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.murals-offer-photo{
+    margin: 100px;
+    width: 70%;
+}
+
+.murals-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    max-width: 100vw;
+}
+
+.murals-row2{
+    position: relative;
+    bottom:100px;
+}
+
+.murals-row3, .murals-row4{
+    max-width: 30%;
+}
+
+#murals-row1, .murals-row2, .murals-row3{
+    margin-right: 50px;
+}
+
+#murals-row1{
+    height: 500px;
+}
+
+.margin-right{
+    margin-right: 100px;
+}
+
+.picture-main, .murals-row{
+    margin-top: 100px;
+
+}
+
+.picture-text1, .pic-butt-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-text1{
+    padding: 0px 100px;
+}
+
+.pic-title, .pic-description{
+    margin-left: 100px;
+}

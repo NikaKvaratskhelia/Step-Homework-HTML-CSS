@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    height: fit-content;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header-div{
+    padding: 30px;
+    background-color: rgb(206, 199, 189);
+}
+
+.header-div nav{
+    margin-right: 250px;
+}
+
+header, .menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>li>a{
+    margin-left: 20px;
+    font-weight: bold;
+    color:black;
+    font-size: 20px
+}
+
+h1{
+    margin-left: 150px;
+    font-family: cursive;
+}
+
+footer{
+    background-color: #534f4f;
+    height: fit-content;
+    padding: 100px;
+}
+
+footer h2, footer p, a{
+    color: #ffffff;
+}
+
+footer>h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.contact-footer{
+    float: right;
+}
+
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.flexed li{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.flexed p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.follow-us{
+    margin: 50px;
+}
+
+.follow-text{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.tag-name{
+    font-size: 30px;
+    margin-top: 50px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tag-name a{
+    color:black ;
+}
+
+.follow-icons img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.follow-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.photo-foot{
+    width: 100%;
+    max-width: 100wh;
+}
+
+.contac-main-title{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.photo1{
+    height: 130vh;
+}
+
+.main-div{
+    margin-right: 100px;
+}
+
+.second-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-icons-contact img{
+    width: 5%;
+    margin-left: 10px;
+}
+
+.follow-icons-contact{
+    margin-top: 50px;
+}
+
+
+.contact-details{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.contact-details p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact-details h3{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+form, .input-div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+form>div{
+    margin-top: 20px;
+}
+
+form>div>*{
+    margin-top: 10px;
+}
+
+form>div input, textarea{
+    border: none;
+    border-bottom: #534f4f solid 2px;
+    padding: 10px;
+}
+
+form>div input[type="submit"]{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

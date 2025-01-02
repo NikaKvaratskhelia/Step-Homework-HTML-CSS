@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg-style.css">
+    <link rel="stylesheet" href="reg-style.css">
+</head>
+<body>
+
+    <div class="main-div">
+
+        <div class="X">
+            <img src="../Images copy/X button.jpg" alt="X">
+        </div>
+
+        <h2 class="title">
+            რეგისტრაცია
+        </h2>
+
+        <p class="description">
+            ეს სწრაფი და იოლია.
+        </p>
+
+        <hr>
+        <form action="post">
+            <div class="text-input">
+                <div class="name-row">
+
+                    <div class="saxeli">
+
+                        <label for="first-name">
+                            <!-- label ცარიელი დავტოვე რადგან ნიმუშში არ იყო არანაირი დასახელება ჩარჩოსთან -->
+                        </label>
+
+                        <input type="text" id="saxeli" name="saxeli" placeholder="სახელი" required>
+
+                    </div>
+
+                    <div class="gvari">
+
+                        <label for="gvari">
+                            <!-- აქაც და შემდეგშიც, ზევით დაწერილი მიზეზის გამო მექნება ცარიელი!!! -->
+                        </label>
+
+                        <input type="text" id="gvari" name="gvari" placeholder="გვარი" required>
+                    </div>
+
+                </div>
+
+                <div class="email-row">
+
+                    <label for="email-tel">
+
+                    </label>
+
+                    <input type="text" id="email-tel" name="email-tel" placeholder="მობილურის ნომერი ან ელ-ფოსტა" required>
+
+                </div>
+
+                <div class="password-row">
+                    <label for="password">
+
+                    </label>
+
+                    <input type="password" id="password" name="password" placeholder="ახალი პაროლი" required>
+                </div>
+            </div>
+
+            <div class="age-name">
+                <p>
+                    დაბადების თარიღი
+                </p>
+            </div>
+
+            <div class="age">
+
+                <div class="year">
+
+                    <label for="year">
+
+                    </label>
+
+                    <input type="number" max="2024" id="year" name="year" placeholder="დაბადების წელი" value="2024">
+
+                </div>
+
+                <div class="day">
+
+                    <label for="day">
+
+                    </label>
+
+                    <input type="number" max="31" id="day" name="day" placeholder="დაბადების რიცხვი" value="1">
+
+                </div>
+
+                <div class="month">
+
+                    <select name="month" id="month">
+                        <option >იანვარი</option>
+                        <option >თებერვალი</option>
+                        <option >მარტი</option>
+                        <option >აპრილი</option>
+                        <option >მაისი</option>
+                        <option >ივნისი</option>
+                        <option >ივლისი</option>
+                        <option >აგვისტო</option>
+                        <option >სექტემბერი</option>
+                        <option >ოქტომბერი</option>
+                        <option >ნოემბერი</option>
+                        <option >დეკემბერი</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="gender-name">
+                <p>
+                    სქესი
+                </p>
+            </div>
+
+            <div class="gender">
+                
+                <label for="male" class="margined-lbl">
+                    <div class="male genders">    
+                        მამრობითი
+                        <input type="radio" id="male" name="gender" value="male">
+                    
+                    </div>
+                </label>
+
+                    
+
+                <label for="female" class="margined-lbl">
+                    <div class="female genders">
+                    
+
+                        მდედრობითი
+                        <input type="radio" id="female" name="gender" value="female">
+                        
+                    </div>
+                </label>
+                <label for="other">
+                    <div class="other genders">
+                        სხვა
+                        <input type="radio" id="other" name="gender" value="other">
+                    </div>
+                </label>
+
+            </div>
+
+            <p class="footerivit">
+                By clicking რეგისტრაცია, you agree to our 
+                <a href="პირობები">
+                    პირობები
+
+                </a>
+                ,
+                <a href="მონაცემთა მათვის თეორია">
+                    მონაცემთა მათვის თეორია
+                </a>
+                 and
+                <a href="ქუქიების გამოყენების პოლიტიკა">
+                    ქუქიების გამოყენების პოლიტიკა
+                </a>
+                . You may receive SMS Notifications from us and can opt out any time.
+
+            </p>
+
+            <div class="submit-row">
+                <input type="submit" name="submit" id="submit" value="რეგისტრაცია">
+            </div>    
+        </form>
+    </div>
+
+</body>
+</html>
