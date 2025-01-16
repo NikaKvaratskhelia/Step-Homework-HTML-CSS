@@ -60,6 +60,10 @@ h1{
     margin-top: 30px;
 }
 
+#black-p {
+    color: black;
+}
+
 .txt-button{
     background-color: black;
     padding: 15px 40px;
