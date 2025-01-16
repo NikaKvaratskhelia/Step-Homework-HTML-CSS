@@ -17,7 +17,7 @@ html, body {
 
 .header-div{
     padding: 30px;
-    background-color: rgb(206, 199, 189);
+    background-color: #ede9e4;
 }
 
 .header-div nav{
@@ -42,7 +42,7 @@ h1{
 }
 
 footer{
-    background-color: #534f4f;
+    background-color: #202020;
     height: fit-content;
     padding: 100px;
 }
@@ -69,13 +69,15 @@ footer>h2{
 }
 
 .flexed li{
-    margin-top: 20px;
     font-size: 30px;
 }
 
 .flexed p{
-    margin-top: 20px;
     font-size: 20px;
+}
+
+.flexed p, .flexed li {
+    margin-top: 20px;
 }
 
 .follow-us{
@@ -130,7 +132,7 @@ footer>h2{
 }
 
 .first-blog, .second-blog, .third-blog{
-    background-color: #d1c293;
+    background-color: #baaa96;
     display: flex;
     justify-content: space-between;
     width: fit-content;

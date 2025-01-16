@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: lightblue;
+}
+
+.box3 {
+    background-color: lightcoral;
+}

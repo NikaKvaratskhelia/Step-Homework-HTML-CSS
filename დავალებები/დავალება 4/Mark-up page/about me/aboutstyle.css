@@ -17,7 +17,7 @@ html, body {
 
 .header-div{
     padding: 30px;
-    background-color: rgb(206, 199, 189);
+    background-color: #ede9e4;
 }
 
 .header-div nav{
@@ -42,7 +42,7 @@ h1{
 }
 
 footer{
-    background-color: #534f4f;
+    background-color: #202020;
     height: fit-content;
     padding: 100px;
 }
