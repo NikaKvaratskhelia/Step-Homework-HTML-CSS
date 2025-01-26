@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    color: #ffffff;
+    /* უმეტესი ტექსტი თეთრია ამიტომ 
+    გავუწერე და სხვები დავწერე ქვემოთ */
+}
+
+.container {
+    background-image: url(./Images/background.png);
+    height: 100vh;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-right-photo {
+    height: 50vh;
+}
+
+.container-left-text {
+    width: 400px;
+    font-size: 18px;
+}
+
+.container-left, .container-left-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-left {
+    gap: 30px;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.container-left-info {
+    gap: 10px;
+}
+
+.grey {
+    color: #c4c4c4;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.container-left-buttons {
+    display: flex;
+    gap: 40px;    
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: #ffffff solid 2px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    max-width: 250px;
+    background-color: transparent;
+}
+
+.container-left-buttons_left,.container-left-buttons_right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hover-div:hover {
+    background: linear-gradient(to left, #ffbd5a3b, #de8a0d,#ffbd5a3b );
+/* background-image: radial-gradient(#de8a0d, #ffbd5a3b); */
+}
