@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body {
+    background-color: #01E37F;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    gap: 0px;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px 0px;
+}
+
+.second-container {
+    background-color: #B7EB41;
+    max-width: 40%;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    right: 10%;   
+    box-shadow: #2e302f;
+}
+
+.top-buttons-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+
+.top-buttons-div img {
+    width: 10%;
+}
+
+.apple-div img {
+    width: 150%;
+    position: relative;
+    left: -120px;
+}
+
+.bottom-white-div {
+    background-color: #ffffff;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.bottom-white-div img {
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.middle-div img {
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.third-container {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top-div h2 {
+    font-weight: bolder;
+
+}
+
+.bottom-div, .middle-div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    border: none;
+    background-color: #ff3f42;
+    padding: 8px 8px;
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 30px;
+}
+
+.p-tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #ff3f42;
+}
+
+button, .second-container {
+    box-shadow: 3px 3px 5px #000000;
+}
