@@ -1,0 +1,13 @@
+.container {
+  background-color: aqua;
+  width: 500px;
+}
+.container p {
+  font-size: 30px;
+}
+.container div {
+  width: 50%;
+}
+.container div p {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
