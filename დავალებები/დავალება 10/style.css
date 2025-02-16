@@ -1,0 +1,84 @@
+button {
+    background-color: aqua;
+    padding: 12px 18px;
+    color: black;
+}
+
+button:hover {
+    padding: 15px 20px;
+    background-color: blue;
+    color: red;
+    transition: 1s;
+}
+
+button:active {
+    background-color: violet;
+}
+
+a {
+    color: red;
+    font-size: 20px;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    font-size: 24px;
+    color: yellow;
+}
+
+input {
+    /* es mas imito gavuwere 
+    ro defaultad aqvs charcho romlic ar shordeba ratomgac  */
+    all: unset;
+    border: 1px solid black;
+}
+
+input:focus {
+    border: violet 3px solid;
+}
+
+li:nth-child(even) {
+    color: aqua;
+}
+
+ul:last-of-type {
+    border: 1px solid black;
+}
+
+li:first-child{
+    color: brown;
+}
+
+h1:before {
+    content: "★";
+}
+
+h1:after {
+    content: "☆";
+}
+
+.button-1 {
+    background-color: red;
+    padding: 10px;
+}
+
+.button-1:before {
+    content: 'not clicked';
+}
+
+.button-1:after {
+    content: 'clicked';
+}
+
+
+.button-2:before {
+    content: '🔄';
+}
+
+p::first-letter {
+    color: red;
+    font-size: 30px;
+}

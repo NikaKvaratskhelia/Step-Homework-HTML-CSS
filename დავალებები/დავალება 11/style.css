@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color:#0a2323;
+}
+
+a {
+    color: var(--main-color);
+}
+
+.book-now-a {
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+}
+
+.book-now-a:hover {
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 30px 15px;
+}
+
+.nav-div, ul, .log-in, .name-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-div, ul, .log-in {
+    gap: 40px;
+}
+
+.burger-menu {
+    width: 30px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.burger-span {
+    width: 30px;
+    height: 6px;
+    background-color: #000;
+}
+
+.burger-menu-list nav, .burger-menu-list ul, .burger-menu-list .log-in {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.burger-menu-list {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0px;
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: #fff;
+}
+
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.burger-menu-list .book-now-a {
+    margin: auto;
+}
+
+.active {
+    display: flex;
+}
+
+@media screen and (max-width:850px) {
+    .nav-div {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}
