@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Poppins;
+}
+
+.top-div img {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    max-width: 1250px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 158px;
+}
+
+.top-div {
+    display: flex;
+    gap: 80px;
+}
+
+.top-div-right>p {
+    max-width: 536px;
+    width: 100%;
+}
+
+.buttons-div p{
+    padding: 16px 24px;
+    border: 1px solid grey;
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 1px;
+    /* ai mas 1px-sac mnishvneloba aqvso da gadmovitane:) */
+}
+
+.buttons-div, .buttons-div div {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.buttons-div {
+    flex-direction: column;
+}
+
+.top-div-right>a {
+    color: #fff;
+    border-radius: 6px;
+    background: linear-gradient(to left, #008FFF, #0089F4);
+    max-width: 305px;
+    width: 100%;
+    padding: 24px 32px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.top-div-right {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 40px 0px;
+}
+
+.name-div p {
+    font-size: 80px;
+    color: #324254;
+    font-weight: 900;
+}
+
+.top-div .name-div .diff-p  {
+    -webkit-text-stroke: #324254 2px;
+    color: #fff;
+}
+
+.main-top-div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inner-div-gap32 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.left-div {
+    position: relative;
+    max-width: 624px;
+    max-height: 1009px;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-div {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    max-width: 304px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #0d1220ce;
+}
+
+.icon-div>div {
+    display: flex;
+    gap: 16px;
+}
+
+.icon-div p {
+    color: #FFFFFFB2;
+    font-size: 14px;
+}
+
+.bottom-div >div {
+    max-width: 590px;
+    max-height: 442px;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-div > div img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 120px;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding: 32px 50px;
+}
+
+.text-div-name {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text-div button {
+    width: fit-content;
+    padding: 24px 32px;
+    background-color: #324254;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+.text-div-name h2 {
+    font-size: 42px;
+    color: #324254;
+}
+
+.text-div-name p {
+    font-size: 24px;
+    color: #566371;
+}
+
+.bottom-main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.bottom-main-div>h2 {
+    font-size: 48px;
+    color: #324254;
+}
+
+.bottom-main-div>p {
+    color: #008FFF;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+    width: fit-content;
+}
+
+.burger {
+    display: none; 
+}
+
+.icon-div svg {
+    fill: #fff;
+}
+
+
+@media  screen and (max-width:431px) {
+    .name-div p {
+        font-size: 52px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .top-div img {
+        display: none;
+    }
+
+    .bottom-div {
+        grid-template-columns: 1fr;
+    }
+
+    .responsive-top {
+        grid-row: 3/4;
+    }
+
+    main {
+        padding:32px;
+    }
+
+    .top-div {
+        width: 100%;
+        display: unset;
+    }
+
+    .icon-div {
+        position: unset;
+        background-color: unset;
+    }
+
+    .icon-div p {
+        color: #000;
+    }
+
+    .buttons-div>div {
+        display: flex;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .buttons-div>div>p {
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon-div svg {
+        fill:#000;
+    }
+
+    .bottom-div {
+        width: 100%;
+        row-gap: 24px;
+    }
+
+    .text-div {
+        padding: unset;
+    }
+
+    .text-div-name h2 {
+        font-size: 36px;
+    }
+
+    .text-div-name p {
+        font-size: 18px;
+    }
+
+    .text-div {
+        margin-bottom: 80px;
+    }
+
+
+}
