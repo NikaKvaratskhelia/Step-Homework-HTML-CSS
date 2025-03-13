@@ -1,0 +1,88 @@
+/* task 1 */
+
+.task1-button {
+    background-color: red;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.task1-button:hover {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    transition: 3s;
+}
+
+/* task 2 */
+
+.task2-p {
+    font-size: 20px;
+    color: red;
+    animation: changeColor 5s linear infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+/* task 3 */
+
+.task3-button {
+    background-color: blue;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.task3-button:hover {
+    width: 200px;
+    height: 100px;
+    transition: 2s;
+}
+
+/* task 4 */
+
+.main-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.small-container {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    animation: rotate 5s linear infinite;
+}
+
+.small-circle {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
